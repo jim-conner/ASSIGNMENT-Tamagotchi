@@ -7,14 +7,17 @@ const showEat = () => {
   <button id="unhealthy-btn" type="button" class="btn btn-primary">Unhealthy</button>`;
   document.querySelector('#eat').innerHTML = domString;
 };
-// let full = 100;
-// const eatAddTen = () => {
+let full = 100;
+// const eatAddSub = () => {
+//   showEat();
 //   full = document.querySelector('#eat');
-//   full += 10;
+  
+//   document.querySelector('#eat').innerHTML('click', (e) => {
+
+//   });
 // };
 
 const init = () => {
-  showEat();
 };
 
 init();
