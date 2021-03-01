@@ -5,7 +5,7 @@ const play = () => {
   <h5 id="play-title">PLAY</h5>
   <h5 id="play-number"><em>${fun}</em></h5>
   <button id="play-add-50" type="button" class="btn btn-primary">Coding</button>
-  <button id="play-add-2" type="button" class="btn btn-primary">Tea Time</button>`;
+  <button id="play-add-2" type="button" class="btn btn-primary">Watch TV</button>`;
   document.querySelector('#play').innerHTML += playButtonsToDom;
   document.querySelector('#play-number').innerHTML = fun;
 
