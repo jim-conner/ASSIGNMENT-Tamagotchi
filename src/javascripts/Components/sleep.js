@@ -18,7 +18,7 @@ const sleep = () => {
   };
 
   const sleepAddSecond = () => {
-    energy += 2;
+    energy += 60;
     if (energy > 100) {
       energy = 100;
     }
@@ -29,7 +29,7 @@ const sleep = () => {
     if (e.target.id.includes('sleep-add-50')) {
       sleepAddFirst();
     }
-    if (e.target.id.includes('sleep-add-2')) {
+    if (e.target.id.includes('sleep-add-60')) {
       sleepAddSecond();
     }
   });

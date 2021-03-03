@@ -1,4 +1,5 @@
 import '../styles/main.scss';
+// import buildProgress from './Components/progress';
 import eat from './Components/eat';
 import play from './Components/play';
 import fight from './Components/fight';
@@ -9,6 +10,7 @@ const init = () => {
   play();
   fight();
   sleep();
+  // buildProgress();
 };
 
 init();
