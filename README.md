@@ -20,4 +20,4 @@ https://www.loom.com/share/a23d5831553d4de9a305cd4444ad5ff5
 - Total set score displayed for each Quadrant
 - Each Quadrant has two buttons, which add or subtract from each Quadrant score on click
 ### Screenshots
-![Tamagotchi Screencap](https://github.com/jim-conner/ASSIGNMENT-Tamagotchi/blob/main/tamagotchi screenshot.jpg)
+![Tamagotchi Screencap](https://github.com/jim-conner/ASSIGNMENT-Tamagotchi/blob/main/Tamagotchi%20screenshot.jpg)
