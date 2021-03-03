@@ -4,8 +4,8 @@ const sleep = () => {
   const sleepButtonsToDom = `
   <h5 id="sleep-title">SLEEP</h5>
   <h5 id="sleep-number"><em>${energy}</em></h5>
-  <button id="sleep-add-50" type="button" class="btn btn-primary">Nap</button>
-  <button id="sleep-add-60" type="button" class="btn btn-primary">Deep Slumber</button>`;
+  <button id="sleep-add-50" type="button" class="btn btn-primary">😴 Nap</button>
+  <button id="sleep-add-60" type="button" class="btn btn-primary">💤 Deep Slumber</button>`;
   document.querySelector('#sleep').innerHTML += sleepButtonsToDom;
   document.querySelector('#sleep-number').innerHTML = energy;
 
