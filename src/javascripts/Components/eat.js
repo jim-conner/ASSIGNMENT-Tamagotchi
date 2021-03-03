@@ -4,8 +4,8 @@ const eat = () => {
   const eatButtonsToDom = `
   <h5 id="eat-title">EAT</h5>
   <h5 id="eat-number"><em>${full}</em></h5>
-  <button id="add-10" type="button" class="btn btn-primary">Apple</button>
-  <button id="sub-3" type="button" class="btn btn-primary">Ice Cream</button>`;
+  <button id="add-10" type="button" class="btn btn-primary">🍎 Apple</button>
+  <button id="sub-3" type="button" class="btn btn-primary">🍨 Ice Cream</button>`;
   document.querySelector('#eat').innerHTML += eatButtonsToDom;
   document.querySelector('#eat-number').innerHTML = full;
 

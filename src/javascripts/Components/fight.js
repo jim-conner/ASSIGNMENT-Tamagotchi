@@ -4,8 +4,8 @@ const fight = () => {
   const fightButtonsToDom = `
   <h5 id="fight-title">FIGHT</h5>
   <h5 id="fight-number"><em>${strength}</em></h5>
-  <button id="add-1" type="button" class="btn btn-primary">Run Away!</button>
-  <button id="sub-10" type="button" class="btn btn-primary">Violent Act</button>`;
+  <button id="add-1" type="button" class="btn btn-primary">🏃 Run Away!</button>
+  <button id="sub-10" type="button" class="btn btn-primary">⚔️ Violent Act</button>`;
   document.querySelector('#fight').innerHTML += fightButtonsToDom;
   document.querySelector('#fight-number').innerHTML = strength;
 
