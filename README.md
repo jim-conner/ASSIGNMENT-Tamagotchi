@@ -1,4 +1,4 @@
-# ASSIGNMENT-Bear-Watcher
+# ASSIGNMENT-Tamagotchi
 
 ## Overview 
 Tamagotchi allows a user to adjust points within four Activity areas for their Tamagrotchi pet.
