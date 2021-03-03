@@ -1,8 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import './quads/eat.scss';
+@import './quads/fight.scss';
+@import './quads/play.scss';
+@import './quads/sleep.scss';
 
 html, body {
-  font-family: 'Lato', sans-serif;
   font-style: bolder;
   font-size: 1.5em;
   background-color: indigo;
@@ -30,7 +33,6 @@ html, body {
 }
 
 .container {
-  // display: flexbox;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -44,8 +46,3 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-.bg-eat { background: rgb(255, 166, 0); }
-.bg-play { background: rgb(19, 219, 19); }
-.bg-fight { background: rgb(172, 34, 34); }
-.bg-sleep { background: rgb(86, 198, 243) }
